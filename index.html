@@ -1,51 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" type="text/css" />
-  <title>PHOTOGRID</title>  
-</head>
-<body>
-  <header>
-    <span>PHOTOGRID</span>
-    <nav>
-      <a href="#" class="nav-item">HOME</a>
-      <a href="#" class="nav-item">TRAVEL</a>
-      <a href="#" class="nav-item">COURSES</a>
-      <a href="#" class="nav-item">SHOP</a>
-      <a href="#" class="nav-item"></a>
-      <a href="#" class="nav-item">MORE</a>
-    </nav>
-  </header>
-  <main>
-    <section class="hero-section">
-      <div class="hero-grid item">    
-      </div>
-      <div class="hero-grid item">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins:wght@300;400;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>PHOTOGRID</title>
+	</head>
+	<body>
+		<div class="grid">
+			<header>
+				<span class="logo">PHOTOGRID</span>
+				<nav>
+					<a href="#" class="nav-item">HOME</a>
+					<a href="#" class="nav-item">TRAVEL</a>
+					<a href="#" class="nav-item">COURSES</a>
+					<a href="#" class="nav-item">SHOP</a>
+				</nav>
+				<nav>
+					<a href="#" class="nav-item"></a>
+					<a href="#" class="nav-item">MORE</a>
+				</nav>
+			</header>
+			<main>
+				<section class="hero-section">
+					<div class="first-img">
+						<img src="./images/giraffe.png" alt="giraffe" />
+					</div>
+					<div class="second-img">
+						<img src="./images/lions.png" alt="lions" />
+					</div>
+					<div class="banner">
+						<img src="./images/turtle-banner.png" alt="turtle" />
+						<div class="content-container">
+							<h3>INTO THE WILD</h3>
+							<p>Discover the wilderness of the African Savanna</p>
+							<a href="#" class="cta-btn"> EXPLORE <span> > </span></a>
+						</div>
+					</div>
+				</section>
 
-      </div>
-      <div class="hero-grid item">
-        <div class="content-container">
-          <h3>INTO THE WILD</h3>
-          <p>Discover the wilderness of the African Savanna</p>
-          <a href="#" class="cta-btn">Explore</a>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus metus erat turpis parturient.</p>
-    <div class="footer-item">
-      <h6>INFO</h6>
-    </div>
-    <div class="footer-item">
-      <h6>MEDIA</h6>
-    </div>
-    <div class="footer-item">
-      <h6>CONTACT</h6>
-    </div>
-  </footer>
-  
-</body>
+				<section class="gallery">
+					<h1>WILDLIFE GALLERY</h1>
+
+					<div class="gallery-grid">
+						<img class="img-1" src="./images/elephant.png" alt="elephant" />
+						<img class="img-2" src="./images/blue_bird.png" alt="blue bird" />
+						<img class="img-3" src="./images/close_up_deer.png" alt="deer" />
+						<img class="img-4" src="./images/froggy.png" alt="green frog" />
+						<img class="img-5" src="./images/tiger_cub.png" alt="tiger cub" />
+						<img class="img-6" src="./images/deers.png" alt="several deers" />
+						<img
+							class="img-7"
+							src="./images/ringneck.png"
+							alt="ringneck parrot"
+						/>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer>
+			<div class="grid-footer">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+					eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+				<div class="footer-item">
+					<h6>INFO</h6>
+					<a href="#">About</a>
+					<a href="#">Travel</a>
+					<a href="#">Donate</a>
+				</div>
+				<div class="footer-item">
+					<h6>MEDIA</h6>
+					<a href="#">Instagram</a>
+					<a href="#">Facebook</a>
+					<a href="#">Twitter</a>
+				</div>
+				<div class="footer-item">
+					<h6>CONTACT</h6>
+					<a href="#">Work</a>
+					<a href="#">Volunteer</a>
+					<a href="#">Contact Us</a>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
